@@ -138,6 +138,10 @@ gamma=0.99
 
 <img width="574" height="259" alt="image" src="https://github.com/user-attachments/assets/484f047a-25da-4b0b-af9b-7ac63fdb9ab6" />
 
+gamma=0.9
+
+<img width="512" height="255" alt="image" src="https://github.com/user-attachments/assets/f3533ccb-7c7d-4ba9-beff-038b489381d4" />
+
 
 ---
 
@@ -149,11 +153,11 @@ Iterative policy evaluation was implemented successfully using the Gymnasium Fro
 
 ## Inference
 
-```text
 
 
+Iterative Policy Evaluation was successfully implemented using the FrozenLake environment. For γ = 0.99, the algorithm converged in 54 iterations, while for γ = 0.9, it converged in 38 iterations. The state-value function was calculated using the Bellman expectation equation and displayed as a 4 × 4 grid. The results show that states closer to the goal generally have higher values, while terminal states have a value of zero. Thus, the discount factor affects the estimated state values and the number of iterations required for convergence.
 
-```
+
 
 
 
